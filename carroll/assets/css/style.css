@@ -132,7 +132,7 @@ a:focus {
 
 a:hover {
   text-decoration: none;
-  color: #29B9F2;
+  color:#FFB84D;
 }
 
 button, input[type="submit"] {
@@ -246,14 +246,14 @@ ul {
 }
 
 .gradient-overly {
-  background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #29B9F2 0%, #c1eafa 100%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) linear-gradient(to bottom,#FFB84D 0%, #faf1c1 100%) repeat scroll 0 0;
 }
 
 /*-- 
     - color
 -----------------------------------------*/
 .c-blue {
-  color: #29B9F2;
+  color:#FFB84D;
 }
 
 /*-- 
@@ -285,7 +285,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 #scrollUp {
   width: 40px;
   height: 40px;
-  background-color: #29B9F2;
+  background-color:#FFB84D;
   color: #ffffff;
   right: 20px;
   bottom: 60px;
@@ -995,7 +995,7 @@ body.box-body {
   /*---- Menu Expand For Sub Menu ----*/
 }
 .mobile-menu .mean-bar .mean-nav > ul li a:hover {
-  color: #29B9F2;
+  color:#FFB84D;
   padding-left: 25px;
 }
 .mobile-menu .mean-bar .mean-nav > ul li a.mean-expand {
@@ -1217,7 +1217,7 @@ body.box-body {
 }
 
 .is-sticky .header-top-2 {
-  background: #29B9F2;
+  background:#FFB84D;
 }
 
 /*--
@@ -1316,9 +1316,9 @@ body.box-body {
   font-size: 18px;
 }
 .hero-slider .slider-button .slider-btn:hover {
-  border: 2px solid #29B9F2;
+  border: 2px solid#FFB84D;
   background: #ffffff;
-  color: #29B9F2;
+  color:#FFB84D;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero-slider .slider-button .slider-btn {
@@ -1353,7 +1353,7 @@ body.box-body {
 }
 .hero-slider .slider-text-info.white-text .slider-button .slider-btn:hover {
   background: #ffffff;
-  color: #29B9F2;
+  color:#FFB84D;
 }
 
 .hero-slider {
@@ -1391,9 +1391,10 @@ body.box-body {
 }
 .hero-slider .single-slide.slider-mockup {
   position: relative;
+  background: url(../images/slider/mockup-image1-1.png) no-repeat bottom center;
 }
 .hero-slider .single-slide.slider-mockup::after {
-  background: url(../images/slider/mockup-image1-1.png) no-repeat bottom right;
+  background: none;
   position: absolute;
   content: "";
   right: 0;
@@ -1442,7 +1443,7 @@ body.box-body {
   transition: 0.4s;
 }
 .hero-slider .slick-arrow:hover {
-  background-color: #29B9F2;
+  background-color:#FFB84D;
 }
 @media only screen and (max-width: 479px), only screen and (max-width: 767px) {
   .hero-slider .slick-arrow {
@@ -1654,7 +1655,7 @@ body.box-body {
 }
 
 .overlay-grad-bg::before {
-  background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #29B9F2 0%, #c1eafa 100%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) linear-gradient(to bottom,#FFB84D 0%, #faf1c1 100%) repeat scroll 0 0;
   content: "";
   height: 100%;
   left: 0;
@@ -1724,6 +1725,7 @@ body.box-body {
 }
 .bg-about::after {
   background: url(../images/about/bg-shap-01.png) no-repeat bottom left;
+  background-size: contain;
   position: absolute;
   content: "";
   right: auto;
@@ -1814,7 +1816,7 @@ body.box-body {
   margin-bottom: 0;
 }
 .about-content ul li i {
-  color: #29B9F2;
+  color:#FFB84D;
   margin-right: 5px;
 }
 .about-content .about-btn {
@@ -1822,18 +1824,18 @@ body.box-body {
 }
 .about-content .about-btn .button {
   font-size: 16px;
-  border: 1px solid #29B9F2;
+  border: 1px solid#FFB84D;
   padding: 10px 30px;
   text-transform: capitalize;
   font-weight: 600;
-  background: #29B9F2;
+  background:#FFB84D;
   color: #fff;
   border-radius: 30px;
   margin-right: 8px;
 }
 .about-content .about-btn .button:hover {
   background: transparent;
-  color: #29B9F2;
+  color:#FFB84D;
 }
 @media only screen and (max-width: 767px) {
   .about-content .about-btn .button {
@@ -1872,9 +1874,9 @@ body.box-body {
   transition: all 0.4s ease-in-out;
 }
 .about-content-two .about-social-link a:hover {
-  background: #29B9F2;
+  background:#FFB84D;
   color: #fff;
-  border: 1px solid #29B9F2;
+  border: 1px solid#FFB84D;
 }
 
 .about-bg {
@@ -1912,7 +1914,7 @@ body.box-body {
   font-size: 28px;
   width: 56px;
   height: 56px;
-  background: #29B9F2;
+  background:#FFB84D;
   border-radius: 50%;
   color: #fff;
   line-height: 56px;
@@ -2346,7 +2348,7 @@ body.box-body {
   font-size: 28px;
   width: 70px;
   height: 70px;
-  background: #29B9F2;
+  background:#FFB84D;
   border-radius: 50%;
   color: #fff;
   line-height: 70px;
@@ -2354,7 +2356,7 @@ body.box-body {
   position: relative;
 }
 .feature-area-inner .single-feature .feature-icon i::after {
-  border: 2px solid #29B9F2;
+  border: 2px solid#FFB84D;
   border-radius: 500px;
   content: "";
   height: 75px;
@@ -2425,7 +2427,7 @@ body.box-body {
   transition: opacity 1s;
   opacity: 0;
   transition: all 0.4s ease-in-out;
-  background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #29B9F2 0%, #c1eafa 100%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) linear-gradient(to bottom,#FFB84D 0%, #faf1c1 100%) repeat scroll 0 0;
 }
 .feature-area-inner-four .single-feature:hover:after {
   opacity: 1;
@@ -2474,7 +2476,7 @@ body.box-body {
 }
 
 .theme-bg {
-  background: #29B9F2;
+  background:#FFB84D;
 }
 
 @media only screen and (max-width: 767px) {
@@ -2559,7 +2561,7 @@ body.box-body {
 }
 
 .project-bg {
-  background: #29B9F2;
+  background:#FFB84D;
 }
 
 /*--
@@ -2588,7 +2590,7 @@ body.box-body {
 }
 .single-priceing .table-header h3 {
   font-weight: 600;
-  color: #29B9F2;
+  color:#FFB84D;
 }
 .single-priceing .pricing-list {
   padding-bottom: 35px;
@@ -2611,8 +2613,8 @@ body.box-body {
   padding-bottom: 30px;
 }
 .single-priceing .chose-btn .choose-button {
-  background: #29B9F2;
-  border: 1px solid #29B9F2;
+  background:#FFB84D;
+  border: 1px solid#FFB84D;
   color: #fff;
   font-weight: 600;
   padding: 12px 30px;
@@ -2692,7 +2694,7 @@ body.box-body {
 }
 .screenshot-active .swiper-pagination-bullet {
   background: transparent none repeat scroll 0 0;
-  border: 1px solid #29B9F2;
+  border: 1px solid#FFB84D;
   border-radius: 100%;
   display: inline-block;
   height: 12px;
@@ -2704,7 +2706,7 @@ body.box-body {
   bottom: -5px;
 }
 .screenshot-active .swiper-pagination-bullet-active {
-  background: #29B9F2;
+  background:#FFB84D;
   height: 12px;
   opacity: 1;
   width: 12px;
@@ -2784,7 +2786,7 @@ body.box-body {
 }
 .screenshot-tow-active .slick-dots li button,
 .screenshot-center-active .slick-dots li button {
-  border: 1px solid #29B9F2;
+  border: 1px solid#FFB84D;
   width: 12px;
   height: 12px;
   padding: 0;
@@ -2794,7 +2796,7 @@ body.box-body {
 }
 .screenshot-tow-active .slick-dots li.slick-active button,
 .screenshot-center-active .slick-dots li.slick-active button {
-  background-color: #29B9F2;
+  background-color:#FFB84D;
 }
 
 .screnshot-content-three {
@@ -3002,7 +3004,7 @@ body.box-body {
     12. Testimonial Area Css
 -----------------*/
 .bg-testimonial {
-  background: #29B9F2;
+  background:#FFB84D;
 }
 
 .testimonial-active .slick-dots {
@@ -3039,7 +3041,7 @@ body.box-body {
   border-radius: 50%;
   height: 100px;
   width: 100px;
-  border: 5px solid #29B9F2;
+  border: 5px solid#FFB84D;
 }
 .single-testimonial .client-rating {
   display: flex;
@@ -3128,7 +3130,7 @@ input:focus {
 .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #29B9F2;
+  border-color:#FFB84D;
 }
 
 .contact-form-area input {
@@ -3150,7 +3152,7 @@ input:focus {
   border-radius: 30px;
 }
 .contact-form-area .submit-form .button:hover {
-  background: #29B9F2;
+  background:#FFB84D;
   color: #fff;
 }
 
@@ -3194,7 +3196,7 @@ input:focus {
   border-radius: 25px;
 }
 .contact-area-two .submit-form .button {
-  background: #29B9F2;
+  background:#FFB84D;
 }
 .contact-area-two .submit-form .button:hover {
   background: #222;
@@ -3236,7 +3238,7 @@ input:focus {
 }
 
 .download-bg {
-  background: #29B9F2;
+  background:#FFB84D;
 }
 
 .download-buttons .button {
@@ -3255,7 +3257,7 @@ input:focus {
 }
 .download-buttons .button i {
   font-size: 18px;
-  color: #29B9F2;
+  color:#FFB84D;
   margin-right: 10px;
   transition: all 0.4s ease-in-out;
 }
@@ -3287,7 +3289,7 @@ input:focus {
 }
 .footer-content-area.fotter-content-two {
   padding-top: 0;
-  background: #29B9F2;
+  background:#FFB84D;
 }
 
 .footer-content {
@@ -3310,9 +3312,9 @@ input:focus {
   margin: 0 3px;
 }
 .footer-content .social-link a:hover {
-  background: #29B9F2;
+  background:#FFB84D;
   color: #ffffff;
-  border: 2px solid #29B9F2;
+  border: 2px solid#FFB84D;
 }
 
 /*# sourceMappingURL=style.css.map */
