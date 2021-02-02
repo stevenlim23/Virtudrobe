@@ -1725,6 +1725,7 @@ body.box-body {
 }
 .bg-about::after {
   background: url(../images/about/bg-shap-01.png) no-repeat bottom left;
+  background-size: contain;
   position: absolute;
   content: "";
   right: auto;
