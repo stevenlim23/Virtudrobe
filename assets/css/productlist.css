@@ -1,0 +1,26 @@
+.category-title {
+    text-align: center;
+    margin: 30px;
+}
+
+.category-title p {
+    opacity: 40%;
+}
+
+.category-title hr {
+    width: 20em;
+    color: #000;
+    background-color: #000;
+}
+
+.filter {
+    margin: 20px;
+}
+
+.filter .product .stock-out {
+    color: #E20000;
+}
+
+.filter .product .stock-available {
+    color: #2DE200;
+}
